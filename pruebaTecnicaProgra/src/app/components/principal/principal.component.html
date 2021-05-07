@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+<div class="sidebar">
+  <h1>BingoRED</h1>
+  <label class="nameAdmin">Super Admin</label>
+  <a (click)="mostrarContenido('p')"><i class="fas fa-user"></i>Perfil</a>
+  <a (click)="mostrarContenido('f')"><i class="fas fa-square"></i>Ver figuras</a>
+  <a type="button" (click)="logout()"><i class="fas fa-sign-out-alt"></i>Salir</a>
+</div>
+
+<div class="topnav">
+  <label class="labelNavTop">SALA Verano 22</label>
+</div>
+
+<div class="boxContent">
+  <app-perfil *ngIf="show=='p'"></app-perfil>
+  <app-figuras *ngIf="show=='f'" (newItemEvent)="addItem($event)"></app-figuras>
+  <app-createfigura *ngIf="show=='c'" (backItemEvent)="backItem($event)"></app-createfigura>
+</div>

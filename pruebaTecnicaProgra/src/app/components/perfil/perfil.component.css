@@ -1,0 +1,312 @@
+.infoNombre{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    text-align: center;
+}
+
+.name{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    font-size: 14px;
+}
+
+.nameMain{
+    position: relative;
+    top: 15px;
+    left: 65px;
+    font-size: 20px;
+}
+
+.iconFlex{
+    position: relative;
+    font-size: 20px;
+    left: 22px;
+    top:35px
+}
+
+.infoApellido{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+    text-align: center;
+}
+
+.name1{
+    position: relative;
+    top: 25px;
+    left: -15px;
+    font-size: 14px;
+}
+
+.nameMain1{
+    position: relative;
+    top: 20px;
+    left: -15px;
+    font-size: 14px;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.infoUsuario{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-align: center;
+}
+
+.name2{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    font-size: 14px;
+}
+
+.nameMain2{
+    position: relative;
+    left: 12px;
+    top: 15px;
+    font-size: 20px;
+
+}
+
+.iconFlex1{
+    position: relative;
+    font-size: 20px;
+    left: -20px;
+    top:35px
+}
+
+.infoRol{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: -10px;
+    text-align: center;
+}
+
+.name3{
+    position: relative;
+    top: 25px;
+    left: -30px;
+    font-size: 14px;
+}
+
+.nameMain3{
+    position: relative;
+    left: 18px;
+    font-size: 20px;
+top: 15px;
+}
+
+.iconFlex2{
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    top:35px
+}
+
+.infoCreacion{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: -30px;
+    text-align: center;
+}
+
+.name4{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    font-size: 14px;
+}
+
+.nameMain4{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-size: 20px;
+
+}
+
+.iconFlex3{
+    position: relative;
+    font-size: 20px;
+    left: -34px;
+    top:35px
+}
+
+
+.iconFlex4{
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    top:35px
+}
+
+
+
+.imgBall{
+    position: relative;
+    width: 400px;
+    top: -450px;
+    left: 600px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .infoNombre{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: 20px;
+        top: -20px;
+        text-align: center;
+    }
+
+    .name{
+        position: relative;
+        top: 20px;
+        left: -75px;
+        font-size: 14px;
+    }
+    
+    .nameMain{
+        position: relative;
+        left: -40px;
+    }
+
+    .iconFlex{
+        position: relative;
+        font-size: 20px;
+        left: -82px;
+        top:30px
+    }
+
+    .infoApellido{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: -35px;
+        top: -10px;
+        text-align: center;
+    }
+    
+    .name1{
+        position: relative;
+        top: 20px;
+        left: -15px;
+        font-size: 14px;
+    }
+
+    .iconFlex1{
+        position: relative;
+        font-size: 20px;
+        left: -20px;
+        top:30px
+    }
+
+    .infoUsuario{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: 140px;
+        top: -50px;
+        text-align: center;
+    }
+    
+    
+    .name2{
+        position: relative;
+        top: 20px;
+        left: -160px;
+        font-size: 14px;
+    }
+    
+    .nameMain2{
+        position: relative;
+        left: -165px;
+    }
+
+    .iconFlex2{
+        position: relative;
+        font-size: 20px;
+        left: -170px;
+        top:35px
+    }
+
+    .infoRol{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: 140px;
+        top: -90px;
+        text-align: center;
+    }
+    
+    .name3{
+        position: relative;
+        top: 20px;
+        left: -210px;
+        font-size: 14px;
+    }
+    
+    .nameMain3{
+        position: relative;
+        left: -160px;
+    }
+    
+    .iconFlex3{
+        position: relative;
+        font-size: 20px;
+        left: -220px;
+        top:35px
+    }
+    
+    .infoCreacion{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: -40px;
+        top: -130px;
+        text-align: center;
+    }
+    
+    .name4{
+        position: relative;
+        top: 20px;
+        left: 15px;
+        font-size: 14px;
+    }
+    
+    .nameMain4{
+        position: relative;
+        left: 10px;
+    }
+
+    
+    
+    .iconFlex4{
+        position: relative;
+        font-size: 20px;
+        left: 10px;
+        top:35px
+    }
+    
+    .imgBall{
+        display: none;
+    }
+    
+    
+}

@@ -1,0 +1,116 @@
+.figuras{
+    position: relative;
+    border-bottom: 3px solid blue;
+    width: 100px;
+   padding-bottom: 12px;
+}
+
+
+.nav{
+    position: relative;
+    left: 10px;
+    border-bottom: 1px solid #555;
+    width: 1050px;
+    padding: 20px 10px 15px 0px;
+    font-size: 14px;
+}
+
+.addFigure{
+    font-size: 15px;
+    position: relative;
+    color: #007bff;
+}
+
+.boxIcon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background: white;
+    cursor: pointer;
+}
+
+.boxFigures{
+    position: relative;
+    left: 40px;
+    top: 50px;
+    border: 1px solid #555;
+    width: 300px;
+    height: 200px;
+}
+
+.boxFigures1{
+    position: relative;
+    left: 400px;
+    top: -152px;
+    border: 1px solid #555;
+    width: 300px;
+    height: 200px;
+}
+
+.boxFigures2{
+    position: relative;
+    left: 750px;
+    top: -354px;
+    border: 1px solid #555;
+    width: 300px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .figuras{
+        position: relative;
+        border-bottom: 3px solid blue;
+        width: 100px;
+       padding-bottom: 12px;
+    }
+    
+    
+    .nav{
+        position: relative;
+        left: 10px;
+        border-bottom: 1px solid #555;
+        width: 300px;
+        padding: 20px 10px 15px 0px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    
+    .addFigure{
+        font-size: 15px;
+        position: relative;
+        color: #007bff;
+    }
+    
+    .boxIcon{
+        position: relative;
+        top: 20px;
+        left: 10px;
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid blue;
+        background: white;
+        cursor: pointer;
+    }
+    
+    .boxFigures{
+        position: relative;
+        left: 10px;
+        top: 50px;
+        border: 1px solid #555;
+        width: 320px;
+        height: 200px;
+    }
+    
+    .boxFigures1{
+        display: none;
+    }
+    
+    .boxFigures2{
+        display: none;
+    }
+}

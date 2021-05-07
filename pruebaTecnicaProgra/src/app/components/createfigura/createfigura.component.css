@@ -1,0 +1,1200 @@
+.rowBu{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    left: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.selectFigure{
+    position: relative;
+    font-size: 18px;
+    left: 100px;
+    top: 5px;
+}
+
+.topnav {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    padding: 14px 16px;
+    top: 50px;
+    text-align: center;
+    width: 1046px;
+    border-radius: 10px;
+  }
+
+  .labelNavTop{
+    color: black;
+    font-size: 25px;
+    white-space:nowrap;
+    
+}
+
+  .labelUser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+  }
+
+  .input-field {
+    position: relative;
+    width: 590px;
+    height: 44px;
+    line-height: 44px;
+    top: 80px;
+    left: 250px;
+  }
+
+  .inputLabel {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+  }
+
+  .inputLabel:invalid {
+    outline: 0;
+  }
+
+  .inputLabel:focus,
+  .inputLabel:valid {
+    border-color: #007bff;
+  }
+  
+  .inputLabel:focus~.labelUser,
+  .inputLabel:valid~.labelUser {
+    font-size: 14px;
+    top: -24px;
+    color: #007bff;
+  }
+
+ .box1{
+     background-color: gray ;
+     border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 120px;
+     left: 250px;
+ }
+
+ .boxOn1{
+    background-color: rgb(69, 69, 245) ;
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+     position: relative;
+     top: 120px;
+     left: 250px;
+ }
+
+ .box2{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 94px;
+     left: 370px;
+}
+
+.boxOn2{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 94px;
+     left: 370px;
+}
+
+.box3{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 68px;
+     left: 490px;
+}
+
+.boxOn3{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 68px;
+     left: 490px;
+}
+
+.box4{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 42px;
+     left: 610px;
+}
+
+.boxOn4{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 42px;
+     left: 610px;
+}
+
+.box5{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 16px;
+     left: 730px;
+}
+
+.boxOn5{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+     position: relative;
+     top: 16px;
+     left: 730px;
+}
+
+/*Row two*/
+
+.boxTwo1{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+.boxTwoOn1{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+
+
+.boxTwo2{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: 14px;
+    left: 370px;
+}
+
+.boxTwoOn2{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: 14px;
+    left: 370px;
+}
+
+.boxTwo3{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -12px;
+    left: 490px;
+}
+
+.boxTwoOn3{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -12px;
+    left: 490px;
+}
+
+.boxTwo4{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -38px;
+    left: 610px;
+}
+
+.boxTwoOn4{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -38px;
+    left: 610px;
+}
+
+.boxTwo5{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -64px;
+    left: 730px;
+}
+
+.boxTwoOn5{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -64px;
+    left: 730px;
+}
+
+/*Row Three*/
+
+.boxThree1{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -40px;
+    left: 250px;
+}
+
+.boxThreeOn1{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -40px;
+   left: 250px;
+}
+
+.boxThree2{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -66px;
+    left: 370px;
+}
+
+.boxThreeOn2{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -66px;
+    left: 370px;
+}
+
+.boxThree3{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -92px;
+    left: 490px;
+}
+
+.boxThreeOn3{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -92px;
+    left: 490px;
+}
+
+.boxThree4{
+    background-color: gray;
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: -118px;
+    left: 610px;
+}
+
+.boxThreeOn4{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: -118px;
+    left: 610px;
+}
+
+.boxThree5{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -144px;
+    left: 730px;
+}
+
+.boxThreeOn5{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -144px;
+    left: 730px;
+}
+
+/*Row Four*/
+
+.boxFour1{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -120px;
+    left: 250px;
+}
+
+.boxFourOn1{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -120px;
+   left: 250px;
+}
+
+.boxFour2{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -146px;
+    left: 370px;
+}
+
+.boxFourOn2{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -146px;
+    left: 370px;
+}
+
+.boxFour3{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -172px;
+    left: 490px;
+}
+
+.boxFourOn3{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -172px;
+    left: 490px;
+}
+
+.boxFour4{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -198px;
+    left: 610px;
+}
+
+.boxFourOn4{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -198px;
+    left: 610px;
+}
+
+.boxFour5{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -224px;
+    left: 730px;
+}
+
+.boxFourOn5{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -224px;
+   left: 730px;
+}
+
+/*Row Four*/
+
+.boxFive1{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -200px;
+    left: 250px;
+}
+
+.boxFiveOn1{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -200px;
+    left: 250px;
+}
+
+.boxFive2{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -226px;
+    left: 370px;
+}
+
+.boxFiveOn2{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -226px;
+    left: 370px;
+}
+
+.boxFive3{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -252px;
+    left: 490px;
+}
+
+.boxFiveOn3{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -252px;
+    left: 490px;
+}
+
+.boxFive4{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -278px;
+    left: 610px;
+}
+
+.boxFiveOn4{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -278px;
+    left: 610px;
+}
+
+.boxFive5{
+    background-color: gray;
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -304px;
+    left: 730px;
+}
+
+.boxFiveOn5{
+    background-color: rgb(69, 69, 245);
+    border-radius: 5px;
+     width: 110px;
+     height: 25px;
+    position: relative;
+    top: -304px;
+    left: 730px;
+}
+
+/*Button Save*/
+
+.buttonSave{
+    position: relative;
+      background: rgb(204, 203, 203);
+      width: 70px;
+      height: 40px;
+    top: -280px;
+    left: 770px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .rowBu{
+        position: relative;
+        top: -10px;
+        font-size: 30px;
+        left: 20px;
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .selectFigure{
+        position: relative;
+        font-size: 18px;
+        left: 100px;
+        top: -15px;
+    }
+
+    .topnav {
+        position: relative;
+        background-color: rgb(245, 245, 245);
+        padding: 14px 16px;
+        top: 10px;
+        text-align: center;
+        width: 328px;
+        border-radius: 10px;
+      }
+
+      .labelNavTop{
+        color: black;
+        font-size: 25px;
+        white-space:nowrap;
+        
+    }
+    
+      .labelUser {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        color: #d3d3d3;
+        transition: 0.2s all;
+        cursor: text;
+      }
+    
+      .input-field {
+        position: relative;
+        width: 328px;
+        height: 44px;
+        line-height: 44px;
+        top: 13px;
+        left: 10px;
+      }
+    
+      .inputLabel {
+        width: 100%;
+        border: 0;
+        outline: 0;
+        padding: 0.5rem 0;
+        border-bottom: 2px solid #d3d3d3;
+        box-shadow: none;
+        color: #111;
+      }
+    
+      .inputLabel:invalid {
+        outline: 0;
+      }
+    
+      .inputLabel:focus,
+      .inputLabel:valid {
+        border-color: #007bff;
+      }
+      
+      .inputLabel:focus~.labelUser,
+      .inputLabel:valid~.labelUser {
+        font-size: 10px;
+        top: -22px;
+        color: #007bff;
+      }
+
+      .box1{
+        background-color: gray ;
+        border-radius: 5px;
+        width: 60px;
+        height: 25px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+   
+    .boxOn1{
+       background-color: rgb(69, 69, 245) ;
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+   
+    .box2{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+        position: relative;
+        top: 5px;
+        left: 80px;
+   }
+   
+   .boxOn2{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+        position: relative;
+        top: 5px;
+        left: 80px;
+   }
+   
+   .box3{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+        position: relative;
+        top: -20px;
+        left: 150px;
+   }
+   
+   .boxOn3{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+        position: relative;
+        top: -20px;
+        left: 150px;
+   }
+   
+   .box4{
+       background-color: gray;
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+        position: relative;
+        top: -45px;
+        left: 220px;
+   }
+   
+   .boxOn4{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+        position: relative;
+        top: -45px;
+        left: 220px;
+   }
+   
+   .box5{
+       background-color: gray;
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+        position: relative;
+        top: -70px;
+        left: 290px;
+   }
+   
+   .boxOn5{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+        position: relative;
+        top: -70px;
+        left: 290px;
+   }
+   
+   /*Row two*/
+   
+   .boxTwo1{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -60px;
+       left: 10px;
+   }
+   
+   .boxTwoOn1{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -60px;
+       left: 10px;
+   }
+   
+   
+   
+   .boxTwo2{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -85px;
+       left: 80px;
+   }
+   
+   .boxTwoOn2{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -85px;
+       left: 80px;
+   }
+   
+   .boxTwo3{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -110px;
+       left: 150px;
+   }
+   
+   .boxTwoOn3{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -110px;
+       left: 150px;
+   }
+   
+   .boxTwo4{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -135px;
+       left: 220px;
+   }
+   
+   .boxTwoOn4{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -135px;
+       left: 220px;
+   }
+   
+   .boxTwo5{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -160px;
+       left: 290px;
+   }
+   
+   .boxTwoOn5{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -160px;
+       left: 290px;
+   }
+   
+   /*Row Three*/
+   
+   .boxThree1{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -150px;
+       left: 10px;
+   }
+   
+   .boxThreeOn1{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+      position: relative;
+      top: -150px;
+       left: 10px;
+   }
+   
+   .boxThree2{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -175px;
+       left: 80px;
+   }
+   
+   .boxThreeOn2{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -175px;
+       left: 80px;
+   }
+   
+   .boxThree3{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -200px;
+       left: 150px;
+   }
+   
+   .boxThreeOn3{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -200px;
+       left: 150px;
+   }
+   
+   .boxThree4{
+       background-color: gray;
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+       position: relative;
+       top: -225px;
+       left: 220px;
+   }
+   
+   .boxThreeOn4{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+       position: relative;
+       top: -225px;
+       left: 220px;
+   }
+   
+   .boxThree5{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -250px;
+       left: 290px;
+   }
+   
+   .boxThreeOn5{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -250px;
+       left: 290px;
+   }
+   
+   /*Row Four*/
+   
+   .boxFour1{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -240px;
+       left: 10px;
+   }
+   
+   .boxFourOn1{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+      position: relative;
+      top: -240px;
+       left: 10px;
+   }
+   
+   .boxFour2{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -265px;
+       left: 80px;
+   }
+   
+   .boxFourOn2{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -265px;
+       left: 80px;
+   }
+   
+   .boxFour3{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -290px;
+       left: 150px;
+   }
+   
+   .boxFourOn3{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -290px;
+       left: 150px;
+   }
+   
+   .boxFour4{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -315px;
+       left: 220px;
+   }
+   
+   .boxFourOn4{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -315px;
+       left: 220px;
+   }
+   
+   .boxFour5{
+       background-color: gray;
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -340px;
+       left: 290px;
+   }
+   
+   .boxFourOn5{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+       height: 25px;
+      position: relative;
+      top: -340px;
+       left: 290px;
+   }
+   
+   /*Row Four*/
+   
+   .boxFive1{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -330px;
+       left: 10px;
+   }
+   
+   .boxFiveOn1{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+       width: 60px;
+        height: 25px;
+       position: relative;
+       top: -330px;
+       left: 10px;
+   }
+   
+   .boxFive2{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -355px;
+       left: 80px;
+   }
+   
+   .boxFiveOn2{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -355px;
+       left: 80px;
+   }
+   
+   .boxFive3{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -380px;
+       left: 150px;
+   }
+   
+   .boxFiveOn3{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -380px;
+       left: 150px;
+   }
+   
+   .boxFive4{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -405px;
+       left: 220px;
+   }
+   
+   .boxFiveOn4{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -405px;
+       left: 220px;
+   }
+   
+   .boxFive5{
+       background-color: gray;
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -430px;
+       left: 290px;
+   }
+   
+   .boxFiveOn5{
+       background-color: rgb(69, 69, 245);
+       border-radius: 5px;
+        width: 60px;
+        height: 25px;
+       position: relative;
+       top: -430px;
+       left: 290px;
+   }
+
+   /*Button Save*/
+
+.buttonSave{
+    position: relative;
+      background: rgb(204, 203, 203);
+      width: 70px;
+      height: 40px;
+    top: -420px;
+    left: 150px;
+}
+}

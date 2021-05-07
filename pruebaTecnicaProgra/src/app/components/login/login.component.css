@@ -1,0 +1,200 @@
+body {
+	height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tittleForm{
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+.imgBackground {
+    background: url(https://previews.123rf.com/images/andreadonetti/andreadonetti1401/andreadonetti140100013/25098215-antecedentes-de-n%C3%BAmeros-del-bingo-de-la-suerte-en-las-fichas-redondas-de-madera-que-se-pueden-extraer-al.jpg) no-repeat center ;
+  	height: 100%;
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+
+.boxLogin {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -200px;
+}
+
+form {
+    margin: 100px;
+  }
+
+  .input-field {
+    position: relative;
+    width: 200px;
+    height: 44px;
+    line-height: 44px;
+    left: -30px;
+    top: -30px;
+  }
+
+  .labelUser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+  }
+
+  .inputLabel {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+  }
+
+  .inputLabel:invalid {
+    outline: 0;
+  }
+
+  .inputLabel:focus,
+  .inputLabel:valid {
+    border-color: #007bff;
+  }
+  
+  .inputLabel:focus~.labelUser,
+  .inputLabel:valid~.labelUser {
+    font-size: 14px;
+    top: -24px;
+    color: #007bff;
+  }
+  
+
+  /*Input password*/
+
+  .input-password {
+    position: relative;
+    width: 200px;
+    height: 44px;
+    line-height: 44px;
+    left: -30px;
+    top: -10px;
+  }
+
+  .labelPass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+  }
+
+  .pass {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+  }
+
+  .pass:invalid {
+    outline: 0;
+  }
+
+  .pass:focus,
+  .pass:valid {
+    border-color: #007bff;
+  }
+  
+  .pass:focus~.labelPass,
+  .pass:valid~.labelPass {
+    font-size: 14px;
+    top: -24px;
+    color: #007bff;
+  }
+
+  /*====================================================*/
+
+  /*Button Login*/
+
+  .buttonLogin{
+    position: relative;
+      border-radius: 10px;
+      border: 1px solid #1786e0;
+      color: #1786e0;
+      background: white;
+      width: 200px;
+      height: 45px;
+      left: 70px;
+        top: -80px;
+     cursor: pointer;
+  }
+
+  .buttonLogin:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  }
+
+  @keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+      }
+  }
+
+  /*Label version*/
+
+  .version{
+      position: relative;
+      color: #ccc;
+      font-size: 12px;
+      left: 140px;
+      top: -80px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .boxLogin{
+      position: relative;
+      left: 205px;
+      top: -250px;
+    }
+
+    .imgBackground {
+      height: 100%;
+      background-size: cover;     
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+     }
+  }
+ 

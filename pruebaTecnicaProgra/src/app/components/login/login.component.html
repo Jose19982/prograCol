@@ -1,0 +1,32 @@
+<div class="imgBackground"></div>
+
+<div class="boxLogin">
+
+  <h1 class="tittleForm">Bingo RED</h1>
+
+  <form id="login-form" #lForm="ngForm" [formGroup]="loginForm" (ngSubmit)="submitLogin()" novalidate>
+
+    <div class="input-field">
+      <input  type="text" formControlName="username" placeholder="Username" class="inputLabel" />
+      <label class="labelUser" for="name">Usuario</label>
+    </div>
+
+    <div class="input-password">
+      <input  type="password" formControlName="password" placeholder="Password" class="pass" />
+      <label class="labelPass" for="pass">Contraseña</label>
+    </div>
+
+  </form>
+
+    <button  type="submit" form="login-form" class="buttonLogin">Iniciar Sesion</button>
+
+    <div class="version">
+      <label>Version 06 de Mayo 2021</label>
+    </div>
+
+
+  
+
+
+
+</div>

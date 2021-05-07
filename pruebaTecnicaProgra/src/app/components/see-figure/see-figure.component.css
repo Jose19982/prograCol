@@ -1,0 +1,509 @@
+.box1{
+    background-color: gray ;
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 120px;
+    left: 250px;
+}
+
+.boxOn1{
+   background-color: rgb(69, 69, 245) ;
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+    position: relative;
+    top: 120px;
+    left: 250px;
+}
+
+.box2{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 94px;
+    left: 370px;
+}
+
+.boxOn2{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 94px;
+    left: 370px;
+}
+
+.box3{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 68px;
+    left: 490px;
+}
+
+.boxOn3{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 68px;
+    left: 490px;
+}
+
+.box4{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 42px;
+    left: 610px;
+}
+
+.boxOn4{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 42px;
+    left: 610px;
+}
+
+.box5{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 16px;
+    left: 730px;
+}
+
+.boxOn5{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    position: relative;
+    top: 16px;
+    left: 730px;
+}
+
+/*Row two*/
+
+.boxTwo1{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: 40px;
+   left: 250px;
+}
+
+.boxTwoOn1{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: 40px;
+   left: 250px;
+}
+
+
+
+.boxTwo2{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: 14px;
+   left: 370px;
+}
+
+.boxTwoOn2{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: 14px;
+   left: 370px;
+}
+
+.boxTwo3{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -12px;
+   left: 490px;
+}
+
+.boxTwoOn3{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -12px;
+   left: 490px;
+}
+
+.boxTwo4{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -38px;
+   left: 610px;
+}
+
+.boxTwoOn4{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -38px;
+   left: 610px;
+}
+
+.boxTwo5{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -64px;
+   left: 730px;
+}
+
+.boxTwoOn5{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -64px;
+   left: 730px;
+}
+
+/*Row Three*/
+
+.boxThree1{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -40px;
+   left: 250px;
+}
+
+.boxThreeOn1{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+  position: relative;
+  top: -40px;
+  left: 250px;
+}
+
+.boxThree2{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -66px;
+   left: 370px;
+}
+
+.boxThreeOn2{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -66px;
+   left: 370px;
+}
+
+.boxThree3{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -92px;
+   left: 490px;
+}
+
+.boxThreeOn3{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -92px;
+   left: 490px;
+}
+
+.boxThree4{
+   background-color: gray;
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+   position: relative;
+   top: -118px;
+   left: 610px;
+}
+
+.boxThreeOn4{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+   position: relative;
+   top: -118px;
+   left: 610px;
+}
+
+.boxThree5{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -144px;
+   left: 730px;
+}
+
+.boxThreeOn5{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -144px;
+   left: 730px;
+}
+
+/*Row Four*/
+
+.boxFour1{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -120px;
+   left: 250px;
+}
+
+.boxFourOn1{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+  position: relative;
+  top: -120px;
+  left: 250px;
+}
+
+.boxFour2{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -146px;
+   left: 370px;
+}
+
+.boxFourOn2{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -146px;
+   left: 370px;
+}
+
+.boxFour3{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -172px;
+   left: 490px;
+}
+
+.boxFourOn3{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -172px;
+   left: 490px;
+}
+
+.boxFour4{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -198px;
+   left: 610px;
+}
+
+.boxFourOn4{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -198px;
+   left: 610px;
+}
+
+.boxFour5{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -224px;
+   left: 730px;
+}
+
+.boxFourOn5{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+   width: 110px;
+   height: 25px;
+  position: relative;
+  top: -224px;
+  left: 730px;
+}
+
+/*Row Four*/
+
+.boxFive1{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -200px;
+   left: 250px;
+}
+
+.boxFiveOn1{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -200px;
+   left: 250px;
+}
+
+.boxFive2{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -226px;
+   left: 370px;
+}
+
+.boxFiveOn2{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -226px;
+   left: 370px;
+}
+
+.boxFive3{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -252px;
+   left: 490px;
+}
+
+.boxFiveOn3{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -252px;
+   left: 490px;
+}
+
+.boxFive4{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -278px;
+   left: 610px;
+}
+
+.boxFiveOn4{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -278px;
+   left: 610px;
+}
+
+.boxFive5{
+   background-color: gray;
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -304px;
+   left: 730px;
+}
+
+.boxFiveOn5{
+   background-color: rgb(69, 69, 245);
+   border-radius: 5px;
+    width: 110px;
+    height: 25px;
+   position: relative;
+   top: -304px;
+   left: 730px;
+}
